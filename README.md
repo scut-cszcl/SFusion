@@ -1,4 +1,4 @@
-# TFusion: Transformer based N-to-One Fusion Block
+# SFusion: Self-attention based N-to-One Fusion Block
   
 Our implementation is on an NVIDIA RTX 3090 (24G) with PyTorch 1.8.1.
 
@@ -17,7 +17,7 @@ python train.py --phase train --model_name TF_RMBTS
 Saved models can be found at `./checkpoint`. 
 model_name includes :  'TF_U_Hemis3D', 'U_Hemis3D', 'RMBTS', 'TF_RMBTS', 'LMCR', 'TF_LMCR' .
 
-Note that 'RMBTS' refers to 'FDGF'.
+Note that 'TF_RMBTS' refers to 'SF_FDGF'.
 
 ## Test Examples (Please train the model before test.)
 ```
